@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        <script src="CSS/bootstrap.css"></script>
+        <script src="CSS/bootstrap.min.css"></script>
+        <script src="CSS/bootstrap.rtl.css"></script>
+        <script src="CSS/bootstrap.rtl.min.css"></script>
+        -->
+        <style>
+            div
+            {
+                max-width: 95%;
+                max-height: 95%;
+                width: 100vh;
+                height: 100vh;
+                align-items: center;
+                text-align: center;
+                position: absolute;
+                left: 25px;
+            }
+
+            .activity
+            {
+                background-color: blue;
+                left: 30%;
+            }
+
+            .activity-body
+            {
+                background-color: red;
+            }
+
+            .inner-body
+            {
+                background-color: purple;
+            }
+
+            .body-header
+            {
+                background-color: greenyellow;
+                height: 50px;
+                top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 
+            BODY - Activity
+            The ENTIRE web page
+            The entire page is within the body tag, now we begin breaking down
+            the page section-by-section; naming each smaller section accordingly.
+        -->
+        <div class="activity"> 
+
+            <!--
+                Activity - Activity-body
+                The Body section of the Activity DIV
+                Will contain the CONTENTS, KNOWLEDGE CHECKS of the activity lab
+            -->
+            <div class="activity-body">
+
+                <!--
+                    Activity-body - Inner-body
+                    Used to separate the body contents FROM ON-Page Navigation
+                -->
+                <div class="inner-body">
+    
+                    <!--
+                        inner-body - body-header
+                        Used to present the body navbar 
+                    -->
+                    <div class="body-header"></div>
+
+                    <!--
+                        inner-body - body-wrapper
+                        Holds the cleartext of the lab activity
+                        Will contain text formatting
+                    -->
+                    <div class="body-wrapper"></div>
+                </div>
+            </div>
+
+            <!--
+                Activity - Activity-navbar
+                Toggle to show the the chapter navbar
+                Contains the chapters, sections within the navbar
+            -->
+            <div class="activity-navbar">
+
+            </div>
+            
+        </div>
+    </body>
+</html>
