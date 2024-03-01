@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+ 	   <title>Welcome Page </title>
+  	 	<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<style>
+			.container {
+				position: relative;
+			}
+			/* Remove the navbar's default margin-bottom and rounded borders */ 
+    			.navbar {
+      				margin-bottom: 0;
+      				border-radius: 0;
+    			}
+			/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    			.row.content {height: 1500px}
+    
+    			/* Set gray background color and 100% height */
+    			.sidenav {
+      				background-color: #f1f1f1;
+      				height: 100%;
+    			}
+    
+    			/* On small screens, set height to 'auto' for sidenav and grid */
+    			@media screen and (max-width: 767px) {
+      				.sidenav {
+        				height: auto;
+        				padding: 15px;
+      				}
+      				.row.content {height: auto;} 
+    			}
+			.overlay {
+				position: absolute;
+				z-index: -1;
+				visibility: hidden;
+			}
+			#s1, #s2, #s3, #s4 {
+				visibility: hidden;
+			}
+            body
+            {
+                text-rendering: optimizeLegibility;
+                letter-spacing: .2px;
+            }
+            p
+            {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 1.7rem;
+                line-height: 1.7;
+                word-wrap: break-word;
+                color: #333;
+                margin-top: 0;
+                margin-bottom: .85em;
+            }
+            h1
+            {
+                font-weight: bold;
+            }
+  		</style>
+	</head>
+	<body>
+
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>                        
+      					</button>
+      					<a class="navbar-brand" href="https://github.com/adonis-paulino/IonaLearningModule" target="_blank">Data Science App</a>
+    				</div>
+   			 	<div class="collapse navbar-collapse" id="myNavbar">
+     					<ul class="nav navbar-nav">
+       	 					<li class="group0 active" id="sel0"><a href="javascript:void(0);">Home</a></li>
+        					<li><a href="#">About</a></li>
+        					<li><a href="#">Projects</a></li>
+        					<li><a href="#">Contact Us</a></li>
+      					</ul>
+    				</div>
+  			</div>
+		</nav>
+		<div class="container-fluid">
+			
+			<div class="row">
+				<div class="col-sm-2 sidenav">
+					<h4>Sections</h4>
+					<div class="nav nav-pills nav-stacked">
+						<ul class="nav nav-pills nav-stacked">
+							<li class="group1" id="sel1"><a href="javascript:void(0);">Section 1: Introduction</a></li>
+							<li class="group2" id="sel2"><a href="javascript:void(0);">Section 2: Data Wrangling</a></li>
+							<li class="group3" id="sel3"><a href="javascript:void(0);">Section 3: Math Functions and Data Organization</a></li>
+							<li class="group4" id="sel4"><a href="javascript:void(0);">Section 4: Data Visualization</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-10">
+					<div class="overlay group0" id="s0">
+						<h1>ChemData</h1>
+						<p class="project-members">
+							<em>Adonis Paulino, Kylie Etwaroo, Matthew Peters, and David Romine</em>
+						</p>
+						<p class="site-version">
+							<em>Lab Activity's lastest update: 2024-02-29</em>
+						</p>
+						<hr>
+                        <h1>Welcome!</h1>
+                        <p><b>Hello and welcome to the first-year Chemistry Online Data Science Learning Lab Activity at Iona University for first-year students!!</b></p>
+                        <br>
+                        <p>This learning lab activity was created to provide an opportunity to upcoming first-year chemistry students with basic data analysis skills that can prove useful beyond their first-year classes. This lab activity is broken up into the following sections:</p>
+                        <p><a href="javascript:void(0);">Introduction</a> provides a fundamental explanation of what data analysis is about, as well as providing real-world applications of data analysis and many of the common tools used. </p>
+                        <p><a href="javascript:void(0);">Data Wrangling</a> begins guiding you about the first phase of data analysis: data cleaning. It'll guide you through opening your CSV file, discovering its data columns and cleaning any forms of outliners and anomalies to make extract meaningful information out of the dataset.</p>
+                        <p><a href="javascript:void(0);">Math Functions and Data Organization</a> discusses the <em>why</em> of involving mathematical and statistical equations, by providing an additional source of extracting information from a dataset. This section only covers a few math concepts often used in data analysis as well, but most of which can be automated with functions</p>
+                        <p><a href="javascript:void(0);">Data Visualization</a> is often most interesting step in data analysis, often because of the many forms of visualizations you are capable of producing. In addition to making graphs, this section will also guide you on the smaller intricacies in developing plots, such as choosing a proper graph design, naming/formatting your axis labels, and creating a regression line.</p>
+                        <hr>
+                        <h1>Have Feedback?</h1>
+                        <p>If you notice any issues within any sections and would like to report or provide us any information/feedback, feel free to visit <a href="https://forms.office.com/r/nA8NpMMKZP">our MS form</a> to let us know!</p>
+					</div>
+
+
+					<div class="overlay group1" id="s1">
+						<h1>Section 1 Introduction</h1>
+						<hr>
+						<p>Welcome to the data app. This app has been developed to educate you through the steps of analyzing data. </p>
+						<br>
+						<p>This activity is using [Dataset] from [source].</p>
+						<h2>1.1 What is Data Analysis? Why is it Important?</h2>
+						<br>
+						<p>Answering the question of "what is data analysis", can be broken up into two parts: data, and analysis. To analyze means the process of answering questions like "how?" or "why?". To answer these questions, we must use the data thats provided. Out of all the data, we can find what we need by filtering. After the dataset is filtered and in a finalized format, we can begin to analyze it. Analyzing data comes down to finding a pattern. </p>
+						<br>
+						<p>As stated previously, data analysis is answering a question using any data given. Being able to draw a conclusion from information and make an informed decision for the future is extremely valuable. Having the ability to look back on the past, predict the future, and how to react to it are all crucial in every possible scenerio. </p>
+						<hr>
+						<h2>1.2 Application of Data Analysis</h2>
+						<br>
+						<p>Data analysis has plenty of applications that prove beneficial to sectors including commercial, government, financial, etc. Here are some examples to show the real world uses of data analysis.</p>
+						<ul>
+							<li>
+								<h4>Healthcare</h4>
+								<p>Data analysis is highly beneficial in the healthcare industry by preventing disease, optimizing resources, and offering better care to patients. A patients condition can be analyzed to properly diagnose and personalize treatment to a specifc patient and meet their needs. Data analytics can be extremely useful especially for finding a disease outbreak, treatment effectiveness, and improving all operations.</p>
+							</li>
+							<li>
+								<h4>Cybersecurity</h4>
+								<p>Data analytics play a huge role in detecting and preventing cyber attacks. Data from security systems can find patterns in user behavior, network traffic, and other anomalies. Looking at the data can help businesses and other organizations to better their security and protect sensitive data.</p>
+							</li>
+							<li>
+								<h4>Manufacturing</h4>
+								<p>Analyzing data is extremely benefecial for manufacturing by optimizing production processing, improving predictive maintenance, and enhancing product quality. Patterns can be drawn from machine performance, sensor data, and maintenance and machinery history to predict equipment failure, minimize downtime, and guarantee efficiency. Overall, data analysis leads to higher productivity and more savings.</p>
+							</li>
+						</ul>
+						<hr>
+						<h2>1.3 Data Analysis Tools</h2>
+						<br>
+						<p>Having the right tools to analyze data is essential for drawing accurate and reliable conclusions. Here are some of the most popular data analysis applciations.</p>
+						<ul>
+							<li>
+								<h4>Excel</h4>
+								<p>Microsoft Excel is one of the most well known software applications for data analysis. Excel provides spreadsheet functions to manage large datasets as well as graphing and computing tools. Excel is an extremely versatile platform and is crucial for any data analyst, hence the activities in this tutorial are based on microsoft excel data analysis tools.</p>
+							</li>
+							<li>
+								<h4>MySQL</h4>
+								<p>MySQL is a popular open source relational database management system that stores data. Popular social media platforms such as Facebook, Twitter(X), and YouTube have used MySQL. SQL(Structured Query Language) is primarily used for relational database management systems, allowing for structured tables of relational databases.</p>
+							</li>
+							<li>
+								<h4>Python</h4>
+								<p>Python is known as one of the most popular programming languages in the world. Python is a multi-paradigm language, therefor being used for many possible uses in software, web development, and data analysis. Python also has extensive libraries for use such as data analytic tools like Numpy and Pandas. Python is overall very useful and important to any data analyst.</p>
+							</li>
+						</ul>
+						<hr>
+					</div>
+			
+					<div class="overlay group2" id="s2">
+						<h1>Section 2 Data Wrangling</h1>
+						<hr>
+						<h2>Chapter 2.1</h2>
+						<p>Text 1</p>
+						<br>
+						<p>Activity</p>
+						<hr>
+						<h2>Chapter 2.2</h2>
+						<p>Text 2</p>
+						<br>
+						<p>Activity</p>
+						<hr>
+					</div>
+
+					<div class="overlay group3" id="s3">
+						<h1>Section 3</h1>
+						<hr>
+						<h2>Chapter 3.1</h2>
+						<p>Text 1</p>
+						<br>
+						<p>Activity</p>
+						<hr>
+						<h2>Chapter 3.2</h2>
+						<p>Text 2</p>
+						<br>
+						<p>Activity</p>
+						<hr>
+					</div>
+
+
+					<div class="overlay group4" id="s4">
+						<h1>Section 4</h1>
+						<hr>
+						<h2>Chapter 4.1</h2>
+						<p>Text 1</p>
+						<br>
+						<p>Activity</p>
+						<hr>
+						<h2>Chapter 4.2</h2>
+						<p>Text 2</p>
+						<br>
+						<p>Activity</p>
+						<hr>
+					</div>
+
+					<script>
+						$(document).ready(function() {
+						
+							$("li").click(function(){
+								$("li").removeClass('active');
+								var newClass = $("#" + this.id).attr('class');
+								$(".overlay").css('visibility', 'hidden');
+								$("." + newClass).addClass('active');
+								$("." + newClass).css('visibility','visible');
+
+							});
+						});
+					</script>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
