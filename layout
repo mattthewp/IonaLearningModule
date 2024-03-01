@@ -76,7 +76,7 @@
 					<h4>Sections</h4>
 					<div class="nav nav-pills nav-stacked">
 						<ul class="nav nav-pills nav-stacked">
-							<li class="group1" id="sel1"><a href="javascript:void(0);">Section 1</a></li>
+							<li class="group1" id="sel1"><a href="javascript:void(0);">Section 1: Introduction</a></li>
 							<li class="group2" id="sel2"><a href="javascript:void(0);">Section 2</a></li>
 							<li class="group3" id="sel3"><a href="javascript:void(0);">Section 3</a></li>
 							<li class="group4" id="sel4"><a href="javascript:void(0);">Section 4</a></li>
@@ -104,17 +104,52 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Maur
 
 
 					<div class="overlay group1" id="s1">
-						<h1>Section 1</h1>
+						<h1>Section 1 Introduction</h1>
 						<hr>
-						<h2>Chapter 1.1</h2>
-						<p>Text 1</p>
+						<p>Welcome to the data app. This app has been developed to educate you through the steps of analyzing data. </p>
 						<br>
-						<p>Activity</p>
+						<p>This activity is using [Dataset] from [source].</p>
+						<h2>1.1 What is Data Analysis? Why is it Important?</h2>
+						<br>
+						<p>Answering the question of "what is data analysis", can be broken up into two part: data, and analysis. To analyze means the process of answering questions like "how?" or "why?". To answer these questions, we must use the data thats provided. Out of all the data, we can find what we need by filtering. After the dataset is filtered and in a finalized format, we can begin to analyze it. Analyzing data comes down to finding a pattern. </p>
+						<br>
+						<p>As stated previously, data analysis is answering a question using data given. Being able to draw a conclusion from information and make an informed decision for the future is extremely valuable. Having the ability to look back on the past, predict the future, and how to react to it are all crucial in every possible scenerio. </p>
 						<hr>
-						<h2>Chapter 1.2</h2>
-						<p>Text 2</p>
+						<h2>1.2 Application of Data Analysis</h2>
 						<br>
-						<p>Activity</p>
+						<p>Data analysis has plenty of applications that prove beneficial to sectors including commercial, government, financial, etc. Here are some examples to show the real world uses of data analysis.</p>
+						<ul>
+							<li>
+								<h4>Healthcare</h4>
+								<p>Data analysis is highly beneficial in the healthcare industry by preventing disease, optimizing resources, and offering better care to patients. A patients condition can be analyzed to properly diagnose and personalize treatment to a specifc patient and meet their needs. Data analytics can be extremely useful especially for finding a disease outbreak, treatment effectiveness, and improving all operations.</p>
+							</li>
+							<li>
+								<h4>Cybersecurity</h4>
+								<p>Data analytics play a huge role in detecting and preventing cyber attacks. Data from security systems can find patterns in user behavior, network traffic, and other anomalies. Looking at the data can help businesses and other organizations to better their security and protect sensitive data.</p>
+							</li>
+							<li>
+								<h4>Manufacturing</h4>
+								<p>Analyzing data is extremely benefecial for manufacturing by optimizing production processing, improving predictive maintenance, and enhancing product quality. Patterns can be drawn from machine performance, sensor data, and maintenance and machinery history to predict equipment failure, minimize downtime, and guarantee efficiency. Overall, data analysis leads to higher productivity and more savings.</p>
+							</li>
+						</ul>
+						<hr>
+						<h2>1.3 Data Analysis Tools</h2>
+						<br>
+						<p>Having the right tools to analyze data is essential for drawing accurate and reliable conclusions. Here are some of the most popular data analysis applciations.</p>
+						<ul>
+							<li>
+								<h4>Excel</h4>
+								<p>Microsoft Excel is one of the most well known software applications for data analysis. Excel provides spreadsheet functions to manage large datasets as well as graphing and computing tools. Excel is an extremely versatile platform and is crucial for any data analyst, hence the activities in this tutorial are based on microsoft excel data analysis tools.</p>
+							</li>
+							<li>
+								<h4>MySQL</h4>
+								<p>MySQL is a popular open source relational database management system that stores data. Popular social media platforms such as Facebook, Twitter(X), and YouTube have used MySQL. SQL(Structured Query Language) is primarily used for relational database management systems, allowing for structured tables of relational databases.</p>
+							</li>
+							<li>
+								<h4>Python</h4>
+								<p>Python is known as one of the most popular programming languages in the world. Python is a multi-paradigm language, therefor being used for many possible uses in software, web development, and data analysis. Python also has extensive libraries for use such as data analytic tools like Numpy and Pandas. Python is overall very useful and important to any data analyst.</p>
+							</li>
+						</ul>
 						<hr>
 					</div>
 			
